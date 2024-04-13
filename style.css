@@ -1,9 +1,44 @@
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
 *,
 ::before,
 ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: inherit;
-    font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 0 254px;
+  padding-bottom: 16px;
+}
+
+.header {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: #F9FAF8;
+  background-color: #1F2937;
+}
+
+.header .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  color: #E6E7EB;
+  font-size: 12px;
+  list-style-type: none;
+  gap: 16px;
 }
