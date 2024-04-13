@@ -72,3 +72,31 @@ body {
   margin-top: 8px;
   padding: 4px 24px;
 }
+
+.info-container {
+  padding: 0 254px;
+  text-align: center;
+}
+
+.info-container .title {
+  margin: 32px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+
+.card p {
+  font-size: 12px;
+  width: 145px;
+}
