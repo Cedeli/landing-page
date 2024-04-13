@@ -38,11 +38,15 @@ body {
   gap: 16px;
 }
 
+.hero-container {
+  background-color: #1F2937;
+  padding: 64px 254px;
+}
+
 .hero {
   display: flex;
-  padding: 64px 254px;
   justify-content: space-evenly;
-  background-color: #1F2937;
+  align-items: center;
 }
 
 .title-container .title {
@@ -55,6 +59,7 @@ body {
   color: #E5E7EB;
   font-size: 12px;
   width: 350px;
+  margin-top: 8px;
 }
 
 .hero button {
@@ -62,13 +67,8 @@ body {
   background-color: #3882F6;
   border: none;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 8px;
   padding: 4px 24px;
-}
-
-.hero img {
-  width: 500px;
-  height: 200px;
 }
