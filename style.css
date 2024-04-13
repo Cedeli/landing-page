@@ -47,7 +47,8 @@ a {
 
 .hero-container {
   background-color: #1F2937;
-  padding: 64px 0;
+  padding-top: 64px;
+  padding-bottom: 128px;
 }
 
 .hero {
