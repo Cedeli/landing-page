@@ -1,5 +1,6 @@
 :root {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -21,6 +22,7 @@ body {
   padding: 16px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #F9FAF8;
   background-color: #1F2937;
 }
@@ -37,6 +39,10 @@ body {
   font-size: 18px;
   list-style-type: none;
   gap: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .hero-container {
@@ -56,8 +62,8 @@ body {
 }
 
 .title-container {
-    width: 525px;
-    height: auto;
+  width: 525px;
+  height: auto;
 }
 
 .title-container .title {
