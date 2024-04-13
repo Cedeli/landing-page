@@ -18,12 +18,7 @@ body {
 }
 
 .header {
-  padding: 0 254px;
-  padding-bottom: 16px;
-}
-
-.header {
-  padding-top: 16px;
+  padding: 16px 254px;
   display: flex;
   justify-content: space-between;
   color: #F9FAF8;
@@ -41,4 +36,39 @@ body {
   font-size: 12px;
   list-style-type: none;
   gap: 16px;
+}
+
+.hero {
+  display: flex;
+  padding: 64px 254px;
+  justify-content: space-evenly;
+  background-color: #1F2937;
+}
+
+.title-container .title {
+  color: #F9FAF8;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.title-container .subtitle {
+  color: #E5E7EB;
+  font-size: 12px;
+  width: 350px;
+}
+
+.hero button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 4px 24px;
+}
+
+.hero img {
+  width: 500px;
+  height: 200px;
 }
