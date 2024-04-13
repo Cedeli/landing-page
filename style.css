@@ -130,3 +130,31 @@ body {
 .quotee p {
   font-size: 24px;
 }
+
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-card {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  margin: 128px 0;
+  padding: 50px 128px;
+  border-radius: 8px;
+}
+
+.sign-up-card button {
+  font-weight: bold;
+  background: none;
+  border: 3px solid #E6E7EB;
+  border-radius: 8px;
+  padding: 2px 48px;
+}
+
+.sign-up-title h2 {
+  font-size: 24px;
+}
