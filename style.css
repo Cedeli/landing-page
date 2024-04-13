@@ -84,12 +84,14 @@ body {
 
 .info-container {
   text-align: center;
+  padding: 64px;
+  padding-bottom: 128px;
 }
 
 .info-container .title {
-  margin: 32px;
+  margin-bottom: 64px;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .card-container {
@@ -108,4 +110,23 @@ body {
 .card p {
   font-size: 18px;
   width: 200px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #E5E7EB;
+  padding: 124px 500px;
+}
+
+.quote p {
+  font: light italic #1F2937;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quotee p {
+  font-size: 24px;
 }
